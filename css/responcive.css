@@ -53,3 +53,15 @@
     }
     
 }
+@media (max-width: 500px) {
+    .nav-bar-box {
+        display: none;
+    }
+    .menu {
+        display: inline-block;
+    }
+    .menu-lef-list {
+        display: block;
+        position: absolute;
+    }
+}

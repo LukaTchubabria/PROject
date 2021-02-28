@@ -20,20 +20,23 @@
 </head>
 <body>
     <header>
-        <i class="logo top-logo">LOGO</i>
+        <div class="header-child">
+
+        <span class="icon-menu-icon menu" id="menu-btn"></span>
+        <i class="logo red-logo">LOGO</i>
         <div class="nav-bar">
-            <nav>
+            <nav class="nav-bar-box">
                 <ul class="navigation-ul">
-                    <li>
+                    <li class="nav-text active">
                         <a href="#">HOME</a>
                     </li>
-                    <li>
+                    <li class="nav-text">
                         <a href="#">DISCOVERY</a>
                     </li>
-                    <li>
+                    <li class="nav-text">
                         <a href="#">PHOTOS</a>
                     </li>
-                    <li>
+                    <li class="nav-text">
                         <a href="#">CONTACT</a>
                     </li>
                 </ul>
@@ -42,6 +45,79 @@
                 <img src="img/main-avatar.png" alt="user-image">
             </a>
         </div> 
+        <div class="menu-lef-list" id="menu-bg">
+            <i class="logo red-logo" id="back">logo</i>
+            <nav class="mobile-nav" >
+                <ul>
+                    <li class="nav-text active">
+                        <a href="index.html">
+                            <span class="icon-home"></span>HOME
+                        </a>
+                    </li>
+                    <li class="nav-text">
+                        <a href="#">
+                            <span class="icon-discover"></span>DISCOVERY
+                        </a>
+                    </li>
+                    <li class="nav-text">
+                        <a href="#">
+                            <span class="icon-photos"></span>PHOTOS
+                        </a>
+                    </li>
+                    <li class="nav-text">
+                        <a href="#">
+                            <span class="icon-mail"></span>CONTACT
+                        </a>
+                    </li>
+                    <li class="nav-text">
+                        <a href="#">
+                            <img src="/img/main-avatar.png" alt="profile-img">PROFILE
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="res-footer">
+                <div class="res-footer-bottom">
+                    <nav class="res-nav-bar footer-nav ">
+                        <ul>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">HELP</a></li>
+                            <li><a href="#">TERMS</a></li>
+                            <li><a href="#">GUIDLINES</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">TESTIMONIALS</a></li>
+                            <li><a href="#">ADVERTISE</a></li>
+                            <li><a href="#">INTEGRATIONS</a></li>
+                            <li><a href="#">CAREERS</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                
+                <ul class="icons">
+                    <li>
+                        <a href="#">
+                            <span class="icon-instagram"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon-twitter"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon-facebook"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon-web"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </header>
     <section class="section-1">
         <div class="left-block">
@@ -134,7 +210,7 @@
             </div>
         </div>
     </section>
-    <!-- <section class="section-3 container-w">
+    <section class="section-3 container-w">
         <div class="wrapper-title">
             <h2 class="section-header">TRENDING</h2>
             <div class="slide-arrows">
@@ -202,7 +278,7 @@
     <footer>
         <div class="footer-s-1">
             <p class="logo">LOGO</p>
-            <div class="footer-nav">
+            <div class="footer-nav main-footer-nav">
                 <ul>
                     <li>
                         <a href="index.html">Home</a>
@@ -254,9 +330,7 @@
                 <label class="f-label" for="email">Stay in touch with us for the freshest products!</label>
             </form>
         </div>
-        <!--   #Social Icons  -->
-
-        <!-- <ul class="icon-list">
+        <ul class="icon-list">
             <li>
                 <a href="#">
                     <span class="icon-instagram"></span>
@@ -278,6 +352,7 @@
                 </a>
             </li>
         </ul>
-    </footer> --> -->
+    </footer>
+    <script src="/JS/main.js"></script>
 </body>
 </html>
