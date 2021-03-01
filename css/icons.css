@@ -27,6 +27,7 @@
 
 .icon-arrow-back:before {
   content: "\e900";
+  opacity: 30%;
 }
 .icon-Arrow-Back-1:before {
   content: "\e901";
