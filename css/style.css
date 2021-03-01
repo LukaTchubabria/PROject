@@ -719,6 +719,7 @@ footer, .icon-list, .footer-nav, .footer-form {
             justify-content: space-between;
     width: 85%;
     margin: auto;
+    padding: 40px 0;
 }
 .story-box {
     margin-top: 40px;

@@ -97,6 +97,9 @@
         width: 80%;
         margin: 40px auto;
     }
+    footer {
+        display: none;
+    }
 }
 @media (max-width: 500px) {
     .nav-bar-box {
@@ -120,8 +123,16 @@
     .story-form #id, #enter {
         width: 327px;
     }
-    footer {
-        display: none;
+    .story-2-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .story-box {
+        width: 100%;
+    }
+    .story-2-container p {
+        width: 100%;
     }
 }
 @media (max-width: 375px){
