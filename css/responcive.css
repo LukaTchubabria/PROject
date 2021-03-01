@@ -203,20 +203,17 @@
         #Story
     \*-------------------------*/
 
-    header {
+    .story-header {
         display: none;
     }
     .section-header-1 {
-        display: none;
-    }
-    header {
         display: none;
     }
     .mob-story-head {
         display: flex;
         justify-content: space-between;
         width: 85%;
-        margin: 20px auto;
+        margin: 0 auto;
     }
     .section {
         margin: 0;
