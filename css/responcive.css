@@ -1,4 +1,11 @@
-
+@media(max-width: 1352px) {
+    .blog-box-large img {
+        width: 100%;
+    }
+    .column-1 {
+        width: 100%;
+    }
+}
 @media (max-width: 1200px) {
     .footer-s-1 {
         width: 100%;
@@ -16,8 +23,15 @@
     .container-w {
         width: 100%;
     }
-    .section-2 {
-
+    .box-1 {
+        width: 100%;
+    }
+    .box-2 {
+        width: 100%;
+    }
+    .story-2-container {
+        width: 100%;
+        display: flex;
     }
 }
 @media (max-width: 1250px) {
@@ -69,6 +83,9 @@
     }
     .trend-block {
         width: 45%;
+    }
+    .story-form #id, #enter {
+        width: 446px;
     }
     
 }

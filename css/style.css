@@ -329,6 +329,7 @@ header {
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 85%;
+    flex-wrap: wrap;
 }
 .trend-block {
     background-color: #FFFFFF;
@@ -692,6 +693,7 @@ footer, .icon-list, .footer-nav, .footer-form {
         -ms-transform: translate(-50% , -50%);
             transform: translate(-50% , -50%);
     text-align: center;
+    line-height: 2.5;
 }
 .border-shadow {
     border-bottom: 2px solid #EBEDED;
@@ -720,7 +722,7 @@ footer, .icon-list, .footer-nav, .footer-form {
 }
 .story-box {
     margin-top: 40px;
-    width: 31%;
+    width: 28%;
 }
 .story-box h3 {
     color: #202124;
@@ -729,15 +731,19 @@ footer, .icon-list, .footer-nav, .footer-form {
     font-weight: 700;
     font-style: normal;
 }
+.story-2-container {
+    display: flex;
+    width: 70%;
+}
+.story-box-1 {
+    margin-right: 40px;
+    width: 160%;
+}
 
 /*-------------------------*\
     #Story-section-3
 \*-------------------------*/
 
-.story-3 {
-    padding: 0 140px;
-    margin: 40px auto 40px auto;
-}
 .story-text {
     margin-top: 40px;
     font-size: 14px;
@@ -745,7 +751,18 @@ footer, .icon-list, .footer-nav, .footer-form {
     color: #A6ADB4;
     white-space: pre-line;
     line-height: 26px;
+    width: 60%;
+    overflow: hidden;
+    height: 224px;
+}
+.story-big-img {
+    width: 85%;
+    margin: 40px auto 0 auto;
 }
 .story-big-img img {
     width: 100%;
+}
+.story-big-text {
+    width: 85%;
+    margin: 0 auto;
 }
