@@ -117,6 +117,12 @@
     .right-block {
         height:  478px;
     }
+    .story-form #id, #enter {
+        width: 327px;
+    }
+    footer {
+        display: none;
+    }
 }
 @media (max-width: 375px){
     
