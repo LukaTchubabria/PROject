@@ -1,8 +1,26 @@
+@media (max-with: 1700px) {
+
+}
 @media(max-width: 1352px) {
     .blog-box-large img {
         width: 100%;
     }
     .column-1 {
+        width: 100%;
+        height: auto;
+    }
+    .column-2 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .blog-box:nth-child(1) {
+        margin-top: 40px;
+    }
+    .blog-box {
+        width: 31%
+    }
+    .blog-box img {
         width: 100%;
     }
 }
@@ -52,7 +70,7 @@
         height: 343px;
     }
     .right-block-content {
-        width: 79.16666666666667%;
+        width: 85%;;
     }
     .content-box, .content-box-2 {
         display: inline-block;
@@ -87,6 +105,13 @@
     .story-form #id, #enter {
         width: 446px;
     }
+    .blog-box:nth-child(3) {
+        display: none;
+    }
+    .blog-box {
+        width: 45%;
+    }
+
     
 }
 @media (max-width: 600px) {
@@ -94,7 +119,7 @@
         display: block;
     }
     .trend-block {
-        width: 80%;
+        width: 100%;
         margin: 40px auto;
     }
     footer {
@@ -134,7 +159,76 @@
     .story-2-container p {
         width: 100%;
     }
-}
-@media (max-width: 375px){
-    
+    .column-2 {
+        display: block;
+    }
+    .blog-box {
+        width: 100%;
+    }
+    .left-block {
+        height: 388px;
+    }
+    .right-block {
+        height: 478px;
+    }
+    .blog-box-content {
+        position: absolute;
+        bottom: 32px;
+        left: 24px;
+    }
+    .section-text {
+        margin-top: 10px;
+    }
+    .date {
+        margin-top: 31px;
+    }
+    .category-name {
+        top: 32px;
+        left: 24px;
+    }
+    .blog-box-large {
+        height: 300px;
+    }
+    .blog-box-large img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+
+
+
+    /*-------------------------*\
+        #Story
+    \*-------------------------*/
+
+    header {
+        display: none;
+    }
+    .section-header-1 {
+        display: none;
+    }
+    header {
+        display: none;
+    }
+    .mob-story-head {
+        display: flex;
+        justify-content: space-between;
+        width: 85%;
+        margin: 20px auto;
+    }
+    .section {
+        margin: 0;
+    }
+    .story-title-text {        
+        overflow: hidden;
+        height: 50px;
+    }
+    .line {
+        top: 40%;
+    }
+    .box-1-content {
+        width: 80%;
+    }
 }
