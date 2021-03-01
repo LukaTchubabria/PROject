@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @font-face {
   font-family: 'icomoon';
   src:  url('../fonts/icomoon.eot?x2klqc');
@@ -85,7 +92,6 @@
   content: "\e910";
   color: #fff;
 }
-
 
 
 

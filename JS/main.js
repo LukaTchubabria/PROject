@@ -1,3 +1,4 @@
+//Js 
 var btn = document.getElementById("menu-btn");
 var menu = document.getElementById("menu-bg");
 btn.addEventListener("click" , function(){

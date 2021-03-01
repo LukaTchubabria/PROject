@@ -1,7 +1,10 @@
+
 @media (max-width: 1200px) {
     .footer-s-1 {
         width: 100%;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
     .footer-form-box {
         margin-top: 50px;
@@ -25,7 +28,10 @@
         width: 100%;
     }
     .section-1 {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .right-block {
         width: 100%;
