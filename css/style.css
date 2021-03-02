@@ -116,11 +116,10 @@ header {
 .navigation-ul li:nth-child(n+2) {
     margin-left: 22px;
 }
-.nav-text {
+.nav-text, .pagination a{
     font-size: 11px;
     font-family: Helvetica-bold;
-    color: #343638;
-    opacity: 50%;
+    color: #A6ADB4;
 }
 .active {
     opacity: 100%;
@@ -774,6 +773,36 @@ footer, .icon-list, .footer-nav, .footer-form {
     width: 85%;
     margin: 0 auto;
 }
+.pagination-cont {
+    display: flex;
+    width: 233px;
+    justify-content: space-between;
+    margin: 45px auto 95px auto;
+}
+.pagination a {
+    font-size: 11px;
+}
+.bottom-text {
+    width: 85%;
+    margin: 40px auto;
+    font-size: 16px;
+    font-family: Helvetica-oblique;
+    height: 20px;
+    overflow: hidden;
+    line-height: 1.7;
+    color: #202124;
+}
+.action-pagination {
+    border-bottom: 2px solid #FA6980;
+    color: #202124;
+}
+.story-line {
+    width: 85%;
+    margin: 40px auto;
+    border-bottom: 2px solid #EBEDED;
+}
+
+
 
 
 

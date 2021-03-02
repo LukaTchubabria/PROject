@@ -72,6 +72,7 @@
 }
 .icon-More:before {
   content: "\e90b";
+  font-size: 4px;
 }
 .icon-photos:before {
   content: "\e90c";
