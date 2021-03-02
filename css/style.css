@@ -602,7 +602,7 @@ footer, .icon-list, .footer-nav, .footer-form {
     color: #FFFFFF;
 }
 .box-1 {
-    background-image: url(/img/4.png);
+    background-image: url(../img/4.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
