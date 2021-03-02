@@ -18,6 +18,8 @@
 *   Story-section-2.......Sroty page Second section
 *
 *   Story-section-3.......Sroty page third section
+*
+*   Animation.......All hovers and animation
 */
 
 
@@ -136,6 +138,7 @@ header {
 }
 .menu-lef-list {
     display: none;
+    z-index: 1;
     width: 76.5%;
     height: 812px;
     background-color: #FFFFFF;
@@ -167,6 +170,9 @@ header {
     height: 16px;
     border-radius: 20px;
     opacity: 100%;
+}
+.mobile-nav span, img {
+    margin-right: 10px;
 }
 .res-footer {
     position: absolute;
@@ -218,7 +224,6 @@ header {
 }
 .left-block {
     background-image: url(/img/1.1.png);
-    z-index: -1;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -263,6 +268,7 @@ header {
     color: #FFFFFF;
     font-size: 11px;
     font-family: Helvetica-bold;
+    cursor: pointer;
 
 }
 .right-block {
@@ -730,9 +736,12 @@ footer, .icon-list, .footer-nav, .footer-form {
     margin: auto;
     padding: 40px 0;
 }
-.story-box {
+.story-box{
     margin-top: 40px;
-    width: 28%;
+    width: 30%;
+}
+.story-box-1, .story-box-2  {
+    width: 30%;
 }
 .story-box h3 {
     color: #202124;
@@ -740,14 +749,6 @@ footer, .icon-list, .footer-nav, .footer-form {
     font-family: acumin-pro, sans-serif;
     font-weight: 700;
     font-style: normal;
-}
-.story-2-container {
-    display: flex;
-    width: 70%;
-}
-.story-box-1 {
-    margin-right: 40px;
-    width: 160%;
 }
 
 /*-------------------------*\
@@ -761,9 +762,6 @@ footer, .icon-list, .footer-nav, .footer-form {
     color: #A6ADB4;
     white-space: pre-line;
     line-height: 26px;
-    width: 60%;
-    overflow: hidden;
-    height: 224px;
 }
 .story-big-img {
     width: 85%;
@@ -775,4 +773,73 @@ footer, .icon-list, .footer-nav, .footer-form {
 .story-big-text {
     width: 85%;
     margin: 0 auto;
+}
+
+
+
+
+/*-------------------------*\
+    #Hover & Animation
+\*-------------------------*/
+
+.nav-text:hover {
+    color: #FA6980;
+}
+.footer-nav a:hover {
+    color: #FA6980;
+}
+
+
+.animation-div{
+    position: relative; 
+    overflow: hidden;
+    margin: 0;
+    filter: grayscale(.8);
+}
+.animation-div::before {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 0;
+	height: 0;
+	background: rgba(0,0,0,.2);
+	border-radius: 100%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+}
+.animation-div:hover{
+    animation: bloom ease-in-out .75s forwards;
+}
+.animation-div:hover::before {
+	animation: circle .75s;
+}
+@keyframes bloom {
+	0% {
+		filter: grayscale(.8);
+	}
+	40% {
+		filter: grayscale(.5);
+	}
+	100% {
+		filter: grayscale(0);
+	}
+}
+@keyframes circle {
+	0% {
+		opacity: .5;
+    background: rgba(rgb(82, 229, 186));
+    
+	}
+	40% {
+		opacity: 1;
+    background: rgba(250, 105, 129, 0.3);
+	}
+	100% {
+		width: 200%;
+		height: 200%;
+		opacity: 0;
+	}
 }

@@ -1,5 +1,20 @@
-@media (max-with: 1700px) {
-
+@media (max-with: 1920px) {
+    .column-1 {
+        width: 50%;
+        display: table;
+    }
+    .blog-large-img img {
+        width: 100%;
+        height: auto;
+    }
+    .column-2 {
+        width: 50%;
+        display: table;
+    }
+    .blog-box img {
+        width: 100%;
+        height: auto;
+    }
 }
 @media(max-width: 1352px) {
     .blog-box-large img {
@@ -42,14 +57,18 @@
         width: 100%;
     }
     .box-1 {
-        width: 100%;
+        width: 85%;
+        margin: 0 auto;
     }
     .box-2 {
-        width: 100%;
+        width: 85%;
+        margin: 0 auto;
     }
-    .story-2-container {
+    .box-2 form {
+        width: 73%;
+    }
+    .story-form #id, #enter {
         width: 100%;
-        display: flex;
     }
 }
 @media (max-width: 1250px) {
@@ -93,6 +112,9 @@
     }
 }
 @media (max-width: 768px){
+    .animation-div {
+        
+    }
     footer {
         padding: 56px 80px;
     }
@@ -102,19 +124,24 @@
     .trend-block {
         width: 45%;
     }
-    .story-form #id, #enter {
-        width: 446px;
-    }
     .blog-box:nth-child(3) {
         display: none;
     }
     .blog-box {
         width: 45%;
     }
+    .story-box {
+        width: 100%
 
-    
+    }
+    .story-box h3 {
+        width: 40%;
+    }
+    .story-box-1, .story-box-2 {
+        width: 45%;
+    }
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .trend-container {
         display: block;
     }
@@ -125,8 +152,6 @@
     footer {
         display: none;
     }
-}
-@media (max-width: 500px) {
     .nav-bar-box {
         display: none;
     }
@@ -144,9 +169,6 @@
     }
     .right-block {
         height:  478px;
-    }
-    .story-form #id, #enter {
-        width: 327px;
     }
     .story-2-container {
         width: 100%;
@@ -177,7 +199,7 @@
         left: 24px;
     }
     .section-text {
-        margin-top: 10px;
+        margin-top: 10px 20px 0 0;
     }
     .date {
         margin-top: 31px;
@@ -194,6 +216,19 @@
         height: 100%;
         object-fit: cover;
     }
+    .story-box h3 {
+        width: 100%;
+    }
+    .story-box-1, .story-box-2 {
+        width: 100%;
+    }
+    .box-1, .box-2 {
+        width: 100%;
+    }
+    .box-2 form {
+        width: 73%;
+    }
+
 
 
 
